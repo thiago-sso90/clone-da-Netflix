@@ -1,0 +1,181 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+        padding: 0;
+     
+}
+body{
+    background: url(../banner\ 1.png) no-repeat ;
+    width: 100%;
+    height: 50%;
+        background-size: cover;  
+        font-size: Arial, Helvetica, sans-serif;
+    position: absolute;
+    
+}
+
+.menu--item{
+    align-items: flex-start;
+    font-size: 20px;
+    font-weight: 700;  
+
+}
+
+.cabecalho-logo img{
+    margin: 5.8rem;
+    align-items: center;
+    width: 10%;
+    margin: auto;
+    
+}
+.menu-item, a{
+    display: flex;
+    gap:38px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    margin-top: 0%;
+    padding-bottom: 25px; 
+
+       
+}
+.menu-item a:hover{
+    color: #fff;
+    
+
+}
+
+.banner{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.banner-titulo{
+    width: 450px;
+    margin: 0 0 0 25px;
+}
+.banner__subtitle{
+    font-size: 1.2vw;
+    color: #ffff;
+    line-height: 1.25;
+    padding:1rem 13rem 0 0;
+    display: flex;
+    margin: 0 0 0 25px;
+    font-weight: 100;
+
+}
+.banner-botao{
+    padding: 15px;
+    margin: 19px;
+  
+    
+}
+.banner__botao--play{
+    width: 40%;
+    padding: 10px;
+    background-color:rgb(146, 150, 150) ;
+    opacity: 0.8;
+    font-weight: 600;
+
+}
+.banner__botao--info{
+    width: 50%;
+    padding: 10px;
+    background-color:rgb(146, 150, 150) ;
+    opacity: 0.8;
+    font-weight: 600;
+}
+.banner__botao--play:hover{
+    cursor: pointer;
+    background-color:#fff;
+}
+.banner__botao--info:hover{
+    cursor: pointer;
+    background-color:#fff;
+}
+
+/*footer*/
+
+.rodape{
+    background: linear-gradient(#000000, #393E46 ,#181818);
+    
+}
+
+.social-links{
+    color: #fff;
+    height: 25px;
+    width: 50%;
+    display: flex;
+    gap: 15px;
+    margin: 2px;
+    padding: 10px;
+    
+   
+    
+    
+}
+.social-links i{
+    font-size: 22px;
+    margin-right: 1,5rem;
+    cursor: pointer;
+    color: #ffff;
+    
+    
+
+}
+
+.info{
+    margin: 20px auto;
+    color: #eff3f8;
+}
+.info-link{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.info-link ul{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    fill: initial;
+    margin: 20px;
+    align-items: center;
+    
+}
+.info-link ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.info-link ul li:hover{
+    text-decoration: underline solid 2px red;
+    color: #edf4f8;
+
+}
+.botao-rodape-btn{
+    margin-bottom: 20px;
+    font-size: 13px;  
+    
+
+}
+.botao-rodape{
+    background: #000000;
+    color: #fff;
+    border: #393E46 solid 1px;
+    padding: 0,5rem;
+    height: 30px;
+    margin-bottom: 25px;
+    margin-right: 70px;
+    width: 15%;
+}
+.botao-rodape:hover{
+    color: #f80606;
+    border: #eff3f8 solid 1px;
+}
